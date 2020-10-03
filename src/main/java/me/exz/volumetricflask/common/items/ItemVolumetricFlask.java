@@ -16,25 +16,34 @@ import net.minecraftforge.fluids.capability.templates.FluidHandlerItemStackSimpl
 import javax.annotation.Nullable;
 
 public class ItemVolumetricFlask extends Item {
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_1 = new ItemVolumetricFlask(1);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_2 = new ItemVolumetricFlask(2);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_3 = new ItemVolumetricFlask(3);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_5 = new ItemVolumetricFlask(5);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_10 = new ItemVolumetricFlask(10);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_16 = new ItemVolumetricFlask(16);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_32 = new ItemVolumetricFlask(32);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_18 = new ItemVolumetricFlask(18);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_20 = new ItemVolumetricFlask(20);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_30 = new ItemVolumetricFlask(30);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_32 = new ItemVolumetricFlask(32);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_33 = new ItemVolumetricFlask(33);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_36 = new ItemVolumetricFlask(36);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_72 = new ItemVolumetricFlask(72);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_144 = new ItemVolumetricFlask(144);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_100 = new ItemVolumetricFlask(100);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_1000 = new ItemVolumetricFlask(1000);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_48 = new ItemVolumetricFlask(48);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_50 = new ItemVolumetricFlask(50);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_72 = new ItemVolumetricFlask(72);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_100 = new ItemVolumetricFlask(100);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_133 = new ItemVolumetricFlask(133);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_144 = new ItemVolumetricFlask(144);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_250 = new ItemVolumetricFlask(250);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_300 = new ItemVolumetricFlask(300);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_648 = new ItemVolumetricFlask(648);
+    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_1000 = new ItemVolumetricFlask(1000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_2000 = new ItemVolumetricFlask(2000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_4000 = new ItemVolumetricFlask(4000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_8000 = new ItemVolumetricFlask(8000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_16000 = new ItemVolumetricFlask(16000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_32000 = new ItemVolumetricFlask(32000);
     public static final ItemVolumetricFlask VOLUMETRIC_FLASK_64000 = new ItemVolumetricFlask(64000);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_33 = new ItemVolumetricFlask(33);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_133 = new ItemVolumetricFlask(133);
-    public static final ItemVolumetricFlask VOLUMETRIC_FLASK_300 = new ItemVolumetricFlask(300);
 
     public int capacity;
 
