@@ -33,25 +33,35 @@ import static me.exz.volumetricflask.common.parts.PartOInterface.*;
 @Mod.EventBusSubscriber(modid = MODID)
 public class Items {
     public static final List<ItemVolumetricFlask> VOLUMETRIC_FLASKS = Arrays.asList(
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_1,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_2,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_3,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_5,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_10,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_16,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_32,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_18,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_20,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_30,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_32,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_33,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_36,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_72,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_144,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_100,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_1000,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_48,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_50,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_72,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_100,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_133,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_144,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_250,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_300,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_648,
+            ItemVolumetricFlask.VOLUMETRIC_FLASK_1000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_2000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_4000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_8000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_16000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_32000,
             ItemVolumetricFlask.VOLUMETRIC_FLASK_64000,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_33,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_133,
-            ItemVolumetricFlask.VOLUMETRIC_FLASK_300
+        
     );
     public static final BlockOInterface BLOCK_O_INTERFACE = new BlockOInterface();
     public static final ItemBlock ITEM_BLOCK_O_INTERFACE = new ItemBlock(BLOCK_O_INTERFACE);
